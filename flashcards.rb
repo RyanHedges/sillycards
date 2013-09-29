@@ -47,7 +47,8 @@ class GameController
     @counter += 1
     card
   end
-
+  
+# @stephenitis this should be refatored into smaller methods. there is alot going on here...
   def play!
     @deck.shuffle!
     puts "Welcome to the best game EVER!"
